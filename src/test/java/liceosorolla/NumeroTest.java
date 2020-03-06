@@ -42,4 +42,8 @@ public class NumeroTest {
 	public void comprobarPotencia() {
 		assertEquals(1024,numero.potencia());
 	}
+	@Test
+	public void comprobarMultiplo() {
+		assertEquals(false,numero.multiplo());
+	}
 }

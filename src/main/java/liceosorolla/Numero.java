@@ -33,5 +33,8 @@ public class Numero {
 	}
 	public int potencia() {
 		return (int)Math.pow(numero1, numero2);	
-		}
+	}
+	public boolean multiplo() {
+		return 4%5==0;
+	}
 }
