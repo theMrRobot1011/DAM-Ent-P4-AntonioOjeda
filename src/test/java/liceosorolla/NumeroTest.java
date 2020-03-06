@@ -34,4 +34,8 @@ public class NumeroTest {
 	public void comprobarMulitplicacion() {
 		assertEquals(20,numero.multiplicar());
 	}
+	@Test
+	public void comprobarDivision() {
+		assertEquals(0,numero.dividir());
+	}
 }
