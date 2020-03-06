@@ -22,4 +22,8 @@ public class NumeroTest {
 		int numero1=5;
 		assertEquals(numero1,numero.getNumero2());
 	}
+	@Test
+	public void comprobarSuma() {
+		assertEquals(9,numero.suma());
+	}
 }
