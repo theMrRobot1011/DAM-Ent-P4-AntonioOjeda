@@ -26,4 +26,8 @@ public class NumeroTest {
 	public void comprobarSuma() {
 		assertEquals(9,numero.suma());
 	}
+	@Test
+	public void comprobarResta() {
+		assertEquals(-1,numero.resta());
+	}
 }

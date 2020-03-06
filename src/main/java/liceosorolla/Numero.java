@@ -22,4 +22,7 @@ public class Numero {
 	public int suma() {
 		return this.numero1+this.numero2;
 	}
+	public int resta() {
+		return numero1-numero2;
+	}
 }
