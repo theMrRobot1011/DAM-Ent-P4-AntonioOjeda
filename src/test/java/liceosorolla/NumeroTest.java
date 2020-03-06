@@ -30,4 +30,8 @@ public class NumeroTest {
 	public void comprobarResta() {
 		assertEquals(-1,numero.resta());
 	}
+	@Test
+	public void comprobarMulitplicacion() {
+		assertEquals(20,numero.multiplicar());
+	}
 }

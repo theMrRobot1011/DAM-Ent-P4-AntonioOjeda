@@ -25,4 +25,7 @@ public class Numero {
 	public int resta() {
 		return numero1-numero2;
 	}
+	public int multiplicar() {
+		return numero1*numero2;
+	}
 }
