@@ -38,4 +38,8 @@ public class NumeroTest {
 	public void comprobarDivision() {
 		assertEquals(0,numero.dividir());
 	}
+	@Test
+	public void comprobarPotencia() {
+		assertEquals(1024,numero.potencia());
+	}
 }
