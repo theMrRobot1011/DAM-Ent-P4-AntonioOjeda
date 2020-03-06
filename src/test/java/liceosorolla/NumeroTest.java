@@ -17,4 +17,9 @@ public class NumeroTest {
 		int numero1=4;
 		assertEquals(numero1,numero.getNumero1());
 	}
+	@Test
+	public void comprobarNumero2() {
+		int numero1=5;
+		assertEquals(numero1,numero.getNumero2());
+	}
 }
