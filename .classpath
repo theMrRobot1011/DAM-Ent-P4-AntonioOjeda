@@ -4,5 +4,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/Users/DAM_1/Desktop/junit-4.11.jar"/>
 	<classpathentry kind="lib" path="C:/Users/DAM_1/Desktop/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/Grado superior/Entorno de desarrollo/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/Grado superior/Entorno de desarrollo/junit-4.11.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
