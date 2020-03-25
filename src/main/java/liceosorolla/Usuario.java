@@ -58,6 +58,15 @@ public class Usuario {
 		bool=18<periodo.getYears();
 		return bool;
 	}
+	public String nombreApellidosMayus() {
+		return (this.nombre.toUpperCase()+" "+this.apellidos.toUpperCase());
+	}
+	
+	public String nombreApellidosMinus() {
+		return (this.nombre.toLowerCase()+" "+this.apellidos.toLowerCase());
+	}
 }
+
+	
 
 
