@@ -6,14 +6,17 @@ public class Animal {
 	private int peso;
 	private int edad;
 	private String colorDePelo;
-
+	private double velocidad;
+	private int zancadaXsegundo;
 	
-	public Animal(String especie,String raza,int peso,int edad,String colorDePelo) {
+	public Animal(String especie,String raza,int peso,int edad,String colorDePelo,double velocidad,int zancadaXsegundo) {
 		this.especie=especie;
 		this.raza=raza;
 		this.peso=peso;
 		this.edad=edad;
 		this.colorDePelo=colorDePelo;
+		this.velocidad=velocidad;
+		this.zancadaXsegundo=zancadaXsegundo;
 	}
 	
 	
