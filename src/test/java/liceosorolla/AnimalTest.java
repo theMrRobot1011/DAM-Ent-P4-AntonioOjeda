@@ -12,7 +12,7 @@ public class AnimalTest {
 	private Animal animal;
 	@Before
 	public void Before() {
-		animal = new Animal("Anfivio","Dardo",20,30,"verde");
+		animal = new Animal("Anfivio","Dardo",20,30,"verde",20.40,10);
 	}
 	
 	@Test
