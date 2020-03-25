@@ -9,6 +9,26 @@ public class Animal {
 	private double velocidad;
 	private int zancadaXsegundo;
 	
+	public double getVelocidad() {
+		return velocidad;
+	}
+
+
+	public void setVelocidad(double velocidad) {
+		this.velocidad = velocidad;
+	}
+
+
+	public int getZancadaXsegundo() {
+		return zancadaXsegundo;
+	}
+
+
+	public void setZancadaXsegundo(int zancadaXsegundo) {
+		this.zancadaXsegundo = zancadaXsegundo;
+	}
+	
+	
 	public Animal(String especie,String raza,int peso,int edad,String colorDePelo,double velocidad,int zancadaXsegundo) {
 		this.especie=especie;
 		this.raza=raza;
