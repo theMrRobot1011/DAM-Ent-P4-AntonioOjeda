@@ -6,6 +6,7 @@ public class Animal {
 	private int peso;
 	private int edad;
 	private String colorDePelo;
+
 	
 	public Animal(String especie,String raza,int peso,int edad,String colorDePelo) {
 		this.especie=especie;
