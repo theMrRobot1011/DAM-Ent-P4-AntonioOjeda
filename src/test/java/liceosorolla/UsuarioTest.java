@@ -39,11 +39,11 @@ package test.java.liceosorolla;
 			assertEquals(7,usuario.getident());
 		}
 		@Test
-		public void comprobarNombreMayusculas() {
+		public void comprobarNombreMayus() {
 			assertEquals("ANTONIO",usuario.getNombre().toUpperCase());
 		}
 		@Test
-		public void comprobarNombreMinusculas() {
+		public void comprobarNombreMinus() {
 			assertEquals("antonio",usuario.getNombre().toLowerCase());
 		}
 	}
